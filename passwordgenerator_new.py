@@ -15,7 +15,7 @@ colors={
 }
 
 def genPasses(numPassGenerated, numWordsPerPass):
-    file = open("words.txt", "r")
+    file = open("six_letter_words.txt", "r")
     wordList=[word.strip() for word in file]
     passes=[]
     for x in range (0, numPassGenerated):
